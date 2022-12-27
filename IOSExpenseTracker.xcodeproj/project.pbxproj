@@ -17,6 +17,8 @@
 		044AF6172959927A007FCB6B /* TransactionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044AF6162959927A007FCB6B /* TransactionRow.swift */; };
 		044AF61A2959980C007FCB6B /* SwiftUIFontIcon in Frameworks */ = {isa = PBXBuildFile; productRef = 044AF6192959980C007FCB6B /* SwiftUIFontIcon */; };
 		044AF620295999BB007FCB6B /* TransactionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044AF61F295999BB007FCB6B /* TransactionListViewModel.swift */; };
+		044AF622295AC569007FCB6B /* RecentTransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044AF621295AC569007FCB6B /* RecentTransactionList.swift */; };
+		044AF624295AD33C007FCB6B /* TransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044AF623295AD33C007FCB6B /* TransactionList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		044AF6142959915E007FCB6B /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 		044AF6162959927A007FCB6B /* TransactionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRow.swift; sourceTree = "<group>"; };
 		044AF61F295999BB007FCB6B /* TransactionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListViewModel.swift; sourceTree = "<group>"; };
+		044AF621295AC569007FCB6B /* RecentTransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTransactionList.swift; sourceTree = "<group>"; };
+		044AF623295AD33C007FCB6B /* TransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +91,9 @@
 			isa = PBXGroup;
 			children = (
 				044AF60329598B08007FCB6B /* ContentView.swift */,
+				044AF621295AC569007FCB6B /* RecentTransactionList.swift */,
 				044AF6162959927A007FCB6B /* TransactionRow.swift */,
+				044AF623295AD33C007FCB6B /* TransactionList.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -193,6 +199,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				044AF6152959915E007FCB6B /* PreviewData.swift in Sources */,
+				044AF624295AD33C007FCB6B /* TransactionList.swift in Sources */,
+				044AF622295AC569007FCB6B /* RecentTransactionList.swift in Sources */,
 				044AF61329599009007FCB6B /* TransactionModel.swift in Sources */,
 				044AF60429598B08007FCB6B /* ContentView.swift in Sources */,
 				044AF6172959927A007FCB6B /* TransactionRow.swift in Sources */,
