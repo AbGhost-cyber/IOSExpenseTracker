@@ -22,7 +22,7 @@ struct TransactionList: View {
                     } header: {
                         Text(month)
                     }
-//                    .listSectionSeparator(.hidden)
+                    .listSectionSeparator(.hidden)
                 }
                 .listStyle(.plain)
             }
